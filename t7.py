@@ -1,0 +1,18 @@
+from turtle import *
+speed('slow')
+s=Screen()
+s.setup(500,500)
+fillcolor('red')
+pencolor('grey')
+for i in range (9):
+    lt(72)
+    penup()
+    fd(80)
+    pendown()
+    begin_fill()
+    circle(80)
+    end_fill()
+    penup()
+    bk(80)
+    pendown()
+mainloop()
